@@ -3,7 +3,7 @@ from logging import exception
 import streamlit as st
 import pandas as pd
 
-from db_fuction import (
+from function import (
 connect_to_db,
 get_basic_info,
 get_additional_table,
